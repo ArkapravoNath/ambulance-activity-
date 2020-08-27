@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.gok.ambulanceactivity"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "microservice",
+    "baseName": "ambulanceactivity",
+    "packageName": "com.gok.ambulanceactivity",
+    "packageFolder": "com/gok/ambulanceactivity",
+    "serverPort": "8034",
+    "authenticationType": "oauth2",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "Mzg4MGU0OTVlNmM5ZDBiM2NhZDg1ZmNjZDEwZTE3YzJhZjU5NjAxNDVmNDFmM2NiMjMxN2IyYTY3OTViYjM1ZGY1ZTFjYzU4NmVlNGMzMDVhYTUxZDI4ZWM3MmYyMGEwY2U1MWU1ZThkMGNkZmYxOTk2MzhiMzZlZWM5M2ZlMWU=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1598494447785,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "generator-jhipster-entity-audit": {
+    "auditFramework": "custom",
+    "auditPage": true,
+    "lastLiquibaseTimestamp": 1598495198000
+  }
+}

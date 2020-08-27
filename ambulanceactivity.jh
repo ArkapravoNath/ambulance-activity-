@@ -1,0 +1,28 @@
+
+
+
+entity AmbulanceActivity{
+
+    ambulanceNumber String,
+	ambulanceType String, //(covid 19 specific) 
+	driverName String,
+    driverPrimaryTelephoneNo String,
+    driverSecondaryTelephoneNo String,
+	profession String,
+	originAddress  String, //json data
+	destinationAddress String, //json data
+    pickupDateTime Instant,
+    dropDateTime Instant,
+	facilityProviderIdRef Long,
+	AmbulanceServiceIdRef Long,
+    PatientActivityIdRef Long,
+    PersonActivityIdRef Long
+    
+	
+}
+
+// Set pagination options
+paginate all with pagination
+// Use Data Transfert Objects (DTO)
+dto * with mapstruct
+service all with serviceImpl
